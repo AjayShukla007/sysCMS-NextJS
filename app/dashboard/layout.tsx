@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Dashboard - SysCMS",
     description: "Manage your routes and environment variables in SysCMS.",
-    url: process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000/dashboard',
+    url: process.env.NEXT_PUBLIC_SITE_URL ? `${process.env.NEXT_PUBLIC_SITE_URL}/dashboard` : 'http://localhost:3000/dashboard',
   },
   twitter: {
     card: "summary_large_image",

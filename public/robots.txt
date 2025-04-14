@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+# Disallow dashboard pages if they shouldn't be indexed
+Disallow: /dashboard/ 
+
+# Add sitemap location (update URL after deployment)
+Sitemap: https://sys-cms-next-js.vercel.app/sitemap.xml 
